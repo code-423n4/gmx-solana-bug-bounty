@@ -6,7 +6,7 @@
 | High       | $10,000 USDC - $25,000 USDC |
 | Medium | $5,000 USDC - $10,000 USDC |
 
-## Backgournd on GMX-Solana
+## Background on GMX-Solana
 
 ### What is GMX-Solana
 
