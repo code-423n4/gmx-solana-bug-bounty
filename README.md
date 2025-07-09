@@ -1,5 +1,8 @@
 # GMX-Solana Bug Bounty
 
+- [Read our guidelines for more details](https://docs.code4rena.com/bounties)
+- Submit findings [using the C4 form](https://code4rena.com/bounties/gmx-solana/submit)
+
 | Risk Score |  Payout |
 |------------|---------|
 | Critical   | The reward cap would be the mininum of:<br>&nbsp;&nbsp;&nbsp;&nbsp;- 10% of funds at risk <br>&nbsp;&nbsp;&nbsp;&nbsp;- $200,000 USDC <br>&nbsp;&nbsp;&nbsp;&nbsp;- 10\% of the treasury <br> With a proposed minimum reward of $25,000, not exceeding the cap. |
