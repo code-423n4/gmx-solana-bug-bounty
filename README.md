@@ -5,9 +5,9 @@
 
 | Risk Score |  Payout |
 |------------|---------|
-| Critical   | The reward cap would be the mininum of - 10% of funds at risk - &#36;200,000 USDC - 10% of the treasury; With a proposed minimum reward of &#36;25,000, not exceeding the cap. |
-| High       | &#36;10,000 USDC - &#36;25,000 USDC |
-| Medium | &#36;5,000 USDC - &#36;10,000 USDC |
+| Critical   | The reward cap would be the mininum of:<br>&nbsp;&nbsp;&nbsp;&nbsp;- 10% of funds at risk <br>&nbsp;&nbsp;&nbsp;&nbsp;- $200,000 USDC <br>&nbsp;&nbsp;&nbsp;&nbsp;- 10\% of the treasury <br> With a proposed minimum reward of $25,000, not exceeding the cap. |
+| High       | $10,000 USDC - $25,000 USDC |
+| Medium | $5,000 USDC - $10,000 USDC |
 
 ## Background on GMX-Solana
 
