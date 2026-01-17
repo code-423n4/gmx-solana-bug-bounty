@@ -5,7 +5,7 @@
 
 | Risk Score |  Payout |
 |------------|---------|
-| Critical   | The reward cap would be the mininum of:<br>&nbsp;&nbsp;&nbsp;&nbsp;- 10% of funds at risk <br>&nbsp;&nbsp;&nbsp;&nbsp;- &#36;200,000 USDC <br>&nbsp;&nbsp;&nbsp;&nbsp;- 10\% of the treasury <br> With a proposed minimum reward of &#36;25,000, not exceeding the cap. |
+| Critical   | Minimum bounty: $25,000<br> Maximum bounty: the lesser of <br>&nbsp;&nbsp;&nbsp;&nbsp;- 10% of funds at risk, <br>&nbsp;&nbsp;&nbsp;&nbsp;- &#36;200,000 USDC, or <br>&nbsp;&nbsp;&nbsp;&nbsp;- 10\% of the treasury 
 | High       | &#36;10,000 USDC - &#36;25,000 USDC |
 | Medium | &#36;5,000 USDC - &#36;10,000 USDC |
 
