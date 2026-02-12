@@ -93,3 +93,5 @@ GMX-Solana previous audits can be found below:
 - The administrators with control over the default store account authority, typically protected by multisig and timelock mechanisms.
 - Any program-defined privileged roles granted or managed by the administrators.
 - Keeper accounts responsible for critical operations or maintaining service availability.
+
+Reward amounts may be displayed using a dollar sign for simplicity, but the underlying valuation is based on a USD-pegged digital asset such as USDC. Because the displayed figure reflects a USD reference value rather than a fiat currency payment, the final amount delivered in the corresponding token may differ slightly at the time of payout.
