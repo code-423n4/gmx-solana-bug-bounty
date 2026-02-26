@@ -61,6 +61,8 @@ LPs primarily earn revenue from order fees and borrowing fees paid by traders wh
 
 Bug reports covering previously-discovered bugs (listed below) are not eligible for a reward within this program. This includes known issues that the project is aware of but has consciously decided not to “fix”, necessary code changes, or any implemented operational mitigating procedures that can lessen potential risk. Every issue opened in the repo, closed PRs, previous contests and audits are out of scope.
 
+All issues submitted by wardens to the GMX-Solana bounty will be added to [this repo](https://github.com/code-423n4/gmx-solana-bug-bounty/issues?q=is%3Aissue%20state%3Aclosed) once they have been reviewed by the sponsors. These are considered known issues and are out-of-scope for bounty rewards.
+
 - https://github.com/gmsol-labs/gmx-solana/blob/main/README.md#known-issues
 
 ### Previous Audits
