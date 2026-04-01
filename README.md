@@ -1,7 +1,7 @@
-# GMX-Solana Bug Bounty
+# GMTrade Bug Bounty
 
 - [Read our guidelines for more details](https://docs.code4rena.com/bounties)
-- Submit findings [using the C4 form](https://code4rena.com/bounties/gmx-solana/submit)
+- Submit findings [using the C4 form](https://code4rena.com/bounties/gmtrade/submit)
 
 | Risk Score |  Payout |
 |------------|---------|
@@ -9,15 +9,15 @@
 | High       | &#36;10,000 USDC - &#36;25,000 USDC |
 | Medium | &#36;5,000 USDC - &#36;10,000 USDC |
 
-## Background on GMX-Solana
+## Background on GMTrade
 
-### What is GMX-Solana
+### What is GMTrade
 
-GMX-Solana is a decentralized leveraged trading platform built on the Solana blockchain, drawing inspiration from the technical innovations introduced by [GMX V2](https://docs.gmx.io/docs/intro). The platform aims to provide a seamless trading experience with fast transaction times and low fees, while maintaining security and decentralization.
+GMTrade is a decentralized leveraged trading platform built on the Solana blockchain, drawing inspiration from the technical innovations introduced by [GMX V2](https://docs.gmx.io/docs/intro). The platform aims to provide a seamless trading experience with fast transaction times and low fees, while maintaining security and decentralization.
 
 ### How Does It Work?
 
-The GMX-Solana system primarily consists of on-chain programs and off-chain keepers, along with price and risk oracles. User market operations are generally executed in two steps: first, users submit on-chain transactions to create market operation requests; then, keepers monitor the network, submit the necessary price updates, and finalize the verification and execution of these requests via additional on-chain transactions. Protocol security is ensured by oracle-provided data and on-chain program logic that validates both user requests and keeper actions, supplemented by mechanisms such as price impacts (to mitigate price manipulation risk and maintain pool and open interest balance) and adaptive funding fees (to ensure long-term balance in open interest).
+GMTrade primarily consists of on-chain programs and off-chain keepers, along with price and risk oracles. User market operations are generally executed in two steps: first, users submit on-chain transactions to create market operation requests; then, keepers monitor the network, submit the necessary price updates, and finalize the verification and execution of these requests via additional on-chain transactions. Protocol security is ensured by oracle-provided data and on-chain program logic that validates both user requests and keeper actions, supplemented by mechanisms such as price impacts (to mitigate price manipulation risk and maintain pool and open interest balance) and adaptive funding fees (to ensure long-term balance in open interest).
 
 The core market operations include:
 
@@ -31,10 +31,10 @@ LPs primarily earn revenue from order fees and borrowing fees paid by traders wh
 
 ### Further Technical Resources & Links
 
-- **GMX-Solana Docs**: Our system documentation, subject to change: https://docs.gmxsol.io
-- **GMX-Solana Website**: https://gmxsol.io
-- **Twitter**: [@GMX_SOL](https://x.com/GMX_SOL)
-- **Discord**: [GMX-Solana](https://discord.gg/gmxsol)
+- **Docs**: Our system documentation, subject to change: https://docs.gmtrade.xyz/
+- **Website**: https://gmtrade.xyz
+- **Twitter**: https://x.com/gmtrade_xyz
+- **Discord**: https://discord.com/invite/gmtrade
 
 # Scope & Severity Criteria
 
@@ -50,10 +50,10 @@ LPs primarily earn revenue from order fees and borrowing fees paid by traders wh
 
 | Name (Address Link) | Repo |
 |------|-------|
-| [Store](https://explorer.solana.com/address/Gmso1uvJnLbawvw7yezdfCDcPydwW2s2iqG3w6MDucLo) | github.com/gmsol-labs/gmx-solana/programs/store |
-| [Treasury](https://explorer.solana.com/address/GTuvYD5SxkTq4FLG6JV1FQ5dkczr1AfgDcBHaFsBdtBg) | github.com/gmsol-labs/gmx-solana/programs/treasury |
-| [Timelock](https://explorer.solana.com/address/TimeBQ7gQyWyQMD3bTteAdy7hTVDNWSwELdSVZHfSXL) | github.com/gmsol-labs/gmx-solana/programs/timelock | 
-| [Competition](https://explorer.solana.com/address/2AxuNr6euZPKQbTwNsLBjzFTZFAevA85F4PW9m9Dv8pc) | github.com/gmsol-labs/gmx-solana/programs/competition | 
+| [Store](https://explorer.solana.com/address/Gmso1uvJnLbawvw7yezdfCDcPydwW2s2iqG3w6MDucLo) | [github.com/gmsol-labs/gmx-solana/programs/store](https://github.com/gmsol-labs/gmx-solana/tree/main/programs/store) |
+| [Treasury](https://explorer.solana.com/address/GTuvYD5SxkTq4FLG6JV1FQ5dkczr1AfgDcBHaFsBdtBg) | [github.com/gmsol-labs/gmx-solana/programs/treasury](https://github.com/gmsol-labs/gmx-solana/tree/main/programs/treasury) |
+| [Timelock](https://explorer.solana.com/address/TimeBQ7gQyWyQMD3bTteAdy7hTVDNWSwELdSVZHfSXL) | [github.com/gmsol-labs/gmx-solana/programs/timelock](https://github.com/gmsol-labs/gmx-solana/tree/main/programs/timelock) | 
+| [Competition](https://explorer.solana.com/address/2AxuNr6euZPKQbTwNsLBjzFTZFAevA85F4PW9m9Dv8pc) | [github.com/gmsol-labs/gmx-solana/programs/competition](https://github.com/gmsol-labs/gmx-solana/tree/main/programs/competition) | 
 
 ## Out-of-Scope
 
@@ -61,7 +61,7 @@ LPs primarily earn revenue from order fees and borrowing fees paid by traders wh
 
 Bug reports covering previously-discovered bugs (listed below) are not eligible for a reward within this program. This includes known issues that the project is aware of but has consciously decided not to “fix”, necessary code changes, or any implemented operational mitigating procedures that can lessen potential risk. Every issue opened in the repo, closed PRs, previous contests and audits are out of scope.
 
-All issues submitted by wardens to the GMX-Solana bounty will be added to [this repo](https://github.com/code-423n4/gmx-solana-bug-bounty/issues?q=is%3Aissue%20state%3Aclosed) once they have been reviewed by the sponsors. These are considered known issues and are out-of-scope for bounty rewards.
+All issues submitted by wardens to the GMTrade bounty will be added to [this repo](https://github.com/code-423n4/gmx-solana-bug-bounty/issues?q=is%3Aissue%20state%3Aclosed) once they have been reviewed by the sponsors. These are considered known issues and are out-of-scope for bounty rewards.
 
 - https://github.com/gmsol-labs/gmx-solana/blob/main/README.md#known-issues
 
@@ -69,7 +69,7 @@ All issues submitted by wardens to the GMX-Solana bounty will be added to [this 
 
 Any **previously reported** vulnerabilities mentioned in past audit reports are not eligible for a reward.
 
-GMX-Solana previous audits can be found below:
+GMTrade previous audits can be found below:
 
 - https://github.com/gmsol-labs/gmx-solana-audits
 
